@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-#home,#social-btn, #skill, #effect, #Contact, #about, #education, #interests, #project{
+#home, #skill, #effect, #Contact, #about, #education, #interests, #Project{
   max-height: 100%;
   max-width: 100%;
 }
@@ -33,22 +33,23 @@ h2{
 i{
   color: rgb(155, 153, 153);
 }
-
 /*Home*/
+
 #home{
-height: 100vh;
+height: auto;
 background-color: #291e4e;
+position: relative;
+width: 100%;
 }
 #effect{
   font-size: 50px;
   font-weight: bold;
-  margin-top: 10%;
-  color: black;
+margin-top: 15%;
+  color: #baa7f7;
   display: flex;
   flex-flow: wrap;
-justify-content: center !important;
+  justify-content: center !important;
   font-family: 'Merriweather', serif;
-  color: #baa7f7;
   height: auto !important;
 max-width: 100%;
 }
@@ -67,21 +68,29 @@ max-width: 100%;
   width: 200px;
   height: 200px;
   box-shadow: 10px 10px 10px 10px #524774;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 #Home{
-    color: black;
-  font-size: 25px;
+    color: #baa7f7;
+  font-size: 15px;
+  font-weight: 20px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
   font-family: 'Merriweather', serif;
   position: fixed;
-  background-color: #7c57f8;
+  background-color:#baa7f7;
+  
   width: 100%;
+  position: fixed;
+  top: 0px;
 }
+#Home a{
+  font-weight: 40px;
+  color: black;
 
+}
 #Home a:hover{
   color: hotpink;
 }
@@ -161,7 +170,7 @@ margin-top: 80px;
 }
 
 /*Project section*/
-#project{
+#Project{
   background-image: linear-gradient(to right, rgb(218, 213, 213), rgb(255, 253, 253));
   display: flex;
   flex-wrap: wrap;
@@ -270,7 +279,7 @@ transform: translatey(0%);}
   flex-wrap: wrap;
  }
 #skill-icon{
-  margin-top: 150px;
+  margin-top: 95px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -282,15 +291,16 @@ transform: translatey(0%);}
   #Contact{
     background-image: linear-gradient(to right, rgb(218, 213, 213), rgb(255, 253, 253));
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     height: 100vh;
   }
   #contact-head i{
     padding: 15px;
 
   }
-  #social-btn{
+  #social-btn{    
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -299,6 +309,15 @@ transform: translatey(0%);}
     }
   #social-btn i{
     font-size: 80px;
-    color:  #7c57f8;
+    color:  #baa7f7;
+    
     margin-top: 80px;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+#Contact{
+  height: auto;
+
+}
+
 }
