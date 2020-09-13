@@ -76,15 +76,15 @@ max-width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-family: 'Merriweather', serif;
   position: fixed;
   background-color:#baa7f7;
   
   width: 100%;
-  position: fixed;
   top: 0px;
   z-index: 1;
+  max-width: 100%;
 }
 #Home a{
   font-weight: 60px;
