@@ -119,6 +119,13 @@ opacity: 20;
 color: black;
   }
 }
+
+@media only screen and (max-width: 600px) {
+#Home a{
+  font-size: 20px;
+  padding: 3px;
+}
+}
 /*About*/
 #about{
   background-image: linear-gradient(to right, rgb(218, 213, 213), rgb(255, 253, 253));
