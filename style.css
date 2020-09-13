@@ -38,7 +38,6 @@ i{
 #home{
 height: auto;
 background-color: #291e4e;
-position: relative;
 width: 100%;
 }
 #effect{
@@ -67,13 +66,13 @@ max-width: 100%;
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  box-shadow: 10px 10px 10px 10px #524774;
+  box-shadow: 0px 10px 10px 10px rgb(153, 152, 152);
   margin-top: 200px;
 }
 #Home{
     color: #baa7f7;
-  font-size: 15px;
-  font-weight: 20px;
+  font-size: 25px;
+  font-weight: 50px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -85,9 +84,10 @@ max-width: 100%;
   width: 100%;
   position: fixed;
   top: 0px;
+  z-index: 1;
 }
 #Home a{
-  font-weight: 40px;
+  font-weight: 60px;
   color: black;
 
 }
@@ -198,6 +198,7 @@ h1 span {
   justify-content: center;
   margin: 0 auto;
   max-width: 1140px;
+  z-index: 0;
 }
 .box-push{
   background-color: #fff;
@@ -304,14 +305,13 @@ transform: translatey(0%);}
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     }
   #social-btn i{
     font-size: 80px;
     color:  #baa7f7;
     
-    margin-top: 80px;
     justify-content: space-around;
 }
 @media only screen and (max-width: 600px) {
