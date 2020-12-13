@@ -31,7 +31,6 @@ body.dark {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 5px;
 	position: relative;
 	height: 13px;
 	width: 25px;
@@ -51,18 +50,22 @@ body.dark {
 }
 
 .checkbox:checked + .label .ball {
-	transform: translateX(10px);
+	transform: translateX(15px);
 }
 
 
 .fa-moon {
 	color: rgb(97, 97, 182);
 	font-size: 0.5rem;
+		margin-bottom: 5%;
+
 }
 
 .fa-sun {
 	color: #f39c12;
 	font-size: 0.5rem;
+		margin-bottom: 5%;
+
 
 }
 
